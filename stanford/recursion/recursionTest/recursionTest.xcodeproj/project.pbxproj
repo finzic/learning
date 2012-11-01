@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38865A8D15C2FCFB0024B56E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38865A8C15C2FCFB0024B56E /* Foundation.framework */; };
+		38865A9015C2FCFB0024B56E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38865A8F15C2FCFB0024B56E /* main.m */; };
+		38865A9415C2FCFB0024B56E /* recursionTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38865A9315C2FCFB0024B56E /* recursionTest.1 */; };
+		38865A9C15C2FD380024B56E /* RecursionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 38865A9B15C2FD380024B56E /* RecursionTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38865A8615C2FCFB0024B56E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				38865A9415C2FCFB0024B56E /* recursionTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38865A8815C2FCFB0024B56E /* recursionTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = recursionTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38865A8C15C2FCFB0024B56E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38865A8F15C2FCFB0024B56E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38865A9215C2FCFB0024B56E /* recursionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "recursionTest-Prefix.pch"; sourceTree = "<group>"; };
+		38865A9315C2FCFB0024B56E /* recursionTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = recursionTest.1; sourceTree = "<group>"; };
+		38865A9A15C2FD380024B56E /* RecursionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecursionTest.h; sourceTree = "<group>"; };
+		38865A9B15C2FD380024B56E /* RecursionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecursionTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38865A8515C2FCFB0024B56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38865A8D15C2FCFB0024B56E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38865A7D15C2FCFB0024B56E = {
+			isa = PBXGroup;
+			children = (
+				38865A9A15C2FD380024B56E /* RecursionTest.h */,
+				38865A9B15C2FD380024B56E /* RecursionTest.m */,
+				38865A8E15C2FCFB0024B56E /* recursionTest */,
+				38865A8B15C2FCFB0024B56E /* Frameworks */,
+				38865A8915C2FCFB0024B56E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38865A8915C2FCFB0024B56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38865A8815C2FCFB0024B56E /* recursionTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38865A8B15C2FCFB0024B56E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38865A8C15C2FCFB0024B56E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38865A8E15C2FCFB0024B56E /* recursionTest */ = {
+			isa = PBXGroup;
+			children = (
+				38865A8F15C2FCFB0024B56E /* main.m */,
+				38865A9315C2FCFB0024B56E /* recursionTest.1 */,
+				38865A9115C2FCFB0024B56E /* Supporting Files */,
+			);
+			path = recursionTest;
+			sourceTree = "<group>";
+		};
+		38865A9115C2FCFB0024B56E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38865A9215C2FCFB0024B56E /* recursionTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38865A8715C2FCFB0024B56E /* recursionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38865A9715C2FCFB0024B56E /* Build configuration list for PBXNativeTarget "recursionTest" */;
+			buildPhases = (
+				38865A8415C2FCFB0024B56E /* Sources */,
+				38865A8515C2FCFB0024B56E /* Frameworks */,
+				38865A8615C2FCFB0024B56E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = recursionTest;
+			productName = recursionTest;
+			productReference = 38865A8815C2FCFB0024B56E /* recursionTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38865A7F15C2FCFB0024B56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 38865A8215C2FCFB0024B56E /* Build configuration list for PBXProject "recursionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38865A7D15C2FCFB0024B56E;
+			productRefGroup = 38865A8915C2FCFB0024B56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38865A8715C2FCFB0024B56E /* recursionTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38865A8415C2FCFB0024B56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38865A9015C2FCFB0024B56E /* main.m in Sources */,
+				38865A9C15C2FD380024B56E /* RecursionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38865A9515C2FCFB0024B56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38865A9615C2FCFB0024B56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38865A9815C2FCFB0024B56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "recursionTest/recursionTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38865A9915C2FCFB0024B56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "recursionTest/recursionTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38865A8215C2FCFB0024B56E /* Build configuration list for PBXProject "recursionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38865A9515C2FCFB0024B56E /* Debug */,
+				38865A9615C2FCFB0024B56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38865A9715C2FCFB0024B56E /* Build configuration list for PBXNativeTarget "recursionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38865A9815C2FCFB0024B56E /* Debug */,
+				38865A9915C2FCFB0024B56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38865A7F15C2FCFB0024B56E /* Project object */;
+}

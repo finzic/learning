@@ -1,0 +1,4 @@
+key
+9bdb288bd0fd6500ce94c3eae64d658e
+secret
+a9e01ec248023a6c

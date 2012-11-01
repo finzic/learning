@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38E8230C15D1B5D100FE78CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E8230B15D1B5D100FE78CF /* UIKit.framework */; };
+		38E8230E15D1B5D100FE78CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E8230D15D1B5D100FE78CF /* Foundation.framework */; };
+		38E8231015D1B5D100FE78CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E8230F15D1B5D100FE78CF /* CoreGraphics.framework */; };
+		38E8231615D1B5D100FE78CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38E8231415D1B5D100FE78CF /* InfoPlist.strings */; };
+		38E8231815D1B5D100FE78CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E8231715D1B5D100FE78CF /* main.m */; };
+		38E8231C15D1B5D100FE78CF /* SVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E8231B15D1B5D100FE78CF /* SVAppDelegate.m */; };
+		38E8231F15D1B5D100FE78CF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E8231D15D1B5D100FE78CF /* MainStoryboard.storyboard */; };
+		38E8232215D1B5D100FE78CF /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E8232115D1B5D100FE78CF /* SVViewController.m */; };
+		38E8232A15D1B79200FE78CF /* SVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E8232915D1B79200FE78CF /* SVDetailViewController.m */; };
+		38E8232D15D1B7A900FE78CF /* SVMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E8232C15D1B7A900FE78CF /* SVMasterViewController.m */; };
+		38E8233015D1B7DB00FE78CF /* SVDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E8232F15D1B7DB00FE78CF /* SVDetailView.m */; };
+		38E8233315D1B7EE00FE78CF /* SVMasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E8233215D1B7EE00FE78CF /* SVMasterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38E8230715D1B5D100FE78CF /* mySplitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySplitViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E8230B15D1B5D100FE78CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38E8230D15D1B5D100FE78CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38E8230F15D1B5D100FE78CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38E8231315D1B5D100FE78CF /* mySplitViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mySplitViewController-Info.plist"; sourceTree = "<group>"; };
+		38E8231515D1B5D100FE78CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38E8231715D1B5D100FE78CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38E8231915D1B5D100FE78CF /* mySplitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mySplitViewController-Prefix.pch"; sourceTree = "<group>"; };
+		38E8231A15D1B5D100FE78CF /* SVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVAppDelegate.h; sourceTree = "<group>"; };
+		38E8231B15D1B5D100FE78CF /* SVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVAppDelegate.m; sourceTree = "<group>"; };
+		38E8231E15D1B5D100FE78CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		38E8232015D1B5D100FE78CF /* SVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
+		38E8232115D1B5D100FE78CF /* SVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
+		38E8232815D1B79200FE78CF /* SVDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVDetailViewController.h; sourceTree = "<group>"; };
+		38E8232915D1B79200FE78CF /* SVDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVDetailViewController.m; sourceTree = "<group>"; };
+		38E8232B15D1B7A900FE78CF /* SVMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMasterViewController.h; sourceTree = "<group>"; };
+		38E8232C15D1B7A900FE78CF /* SVMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMasterViewController.m; sourceTree = "<group>"; };
+		38E8232E15D1B7DB00FE78CF /* SVDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVDetailView.h; sourceTree = "<group>"; };
+		38E8232F15D1B7DB00FE78CF /* SVDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVDetailView.m; sourceTree = "<group>"; };
+		38E8233115D1B7EE00FE78CF /* SVMasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMasterView.h; sourceTree = "<group>"; };
+		38E8233215D1B7EE00FE78CF /* SVMasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMasterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E8230415D1B5D100FE78CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E8230C15D1B5D100FE78CF /* UIKit.framework in Frameworks */,
+				38E8230E15D1B5D100FE78CF /* Foundation.framework in Frameworks */,
+				38E8231015D1B5D100FE78CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E822FC15D1B5D100FE78CF = {
+			isa = PBXGroup;
+			children = (
+				38E8231115D1B5D100FE78CF /* mySplitViewController */,
+				38E8230A15D1B5D100FE78CF /* Frameworks */,
+				38E8230815D1B5D100FE78CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38E8230815D1B5D100FE78CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E8230715D1B5D100FE78CF /* mySplitViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E8230A15D1B5D100FE78CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E8230B15D1B5D100FE78CF /* UIKit.framework */,
+				38E8230D15D1B5D100FE78CF /* Foundation.framework */,
+				38E8230F15D1B5D100FE78CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38E8231115D1B5D100FE78CF /* mySplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38E8231A15D1B5D100FE78CF /* SVAppDelegate.h */,
+				38E8231B15D1B5D100FE78CF /* SVAppDelegate.m */,
+				38E8231D15D1B5D100FE78CF /* MainStoryboard.storyboard */,
+				38E8232815D1B79200FE78CF /* SVDetailViewController.h */,
+				38E8232915D1B79200FE78CF /* SVDetailViewController.m */,
+				38E8232B15D1B7A900FE78CF /* SVMasterViewController.h */,
+				38E8232C15D1B7A900FE78CF /* SVMasterViewController.m */,
+				38E8232E15D1B7DB00FE78CF /* SVDetailView.h */,
+				38E8232F15D1B7DB00FE78CF /* SVDetailView.m */,
+				38E8233115D1B7EE00FE78CF /* SVMasterView.h */,
+				38E8233215D1B7EE00FE78CF /* SVMasterView.m */,
+				38E8232015D1B5D100FE78CF /* SVViewController.h */,
+				38E8232115D1B5D100FE78CF /* SVViewController.m */,
+				38E8231215D1B5D100FE78CF /* Supporting Files */,
+			);
+			path = mySplitViewController;
+			sourceTree = "<group>";
+		};
+		38E8231215D1B5D100FE78CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E8231315D1B5D100FE78CF /* mySplitViewController-Info.plist */,
+				38E8231415D1B5D100FE78CF /* InfoPlist.strings */,
+				38E8231715D1B5D100FE78CF /* main.m */,
+				38E8231915D1B5D100FE78CF /* mySplitViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E8230615D1B5D100FE78CF /* mySplitViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E8232515D1B5D100FE78CF /* Build configuration list for PBXNativeTarget "mySplitViewController" */;
+			buildPhases = (
+				38E8230315D1B5D100FE78CF /* Sources */,
+				38E8230415D1B5D100FE78CF /* Frameworks */,
+				38E8230515D1B5D100FE78CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySplitViewController;
+			productName = mySplitViewController;
+			productReference = 38E8230715D1B5D100FE78CF /* mySplitViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E822FE15D1B5D100FE78CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SV;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 38E8230115D1B5D100FE78CF /* Build configuration list for PBXProject "mySplitViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38E822FC15D1B5D100FE78CF;
+			productRefGroup = 38E8230815D1B5D100FE78CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E8230615D1B5D100FE78CF /* mySplitViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E8230515D1B5D100FE78CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E8231615D1B5D100FE78CF /* InfoPlist.strings in Resources */,
+				38E8231F15D1B5D100FE78CF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E8230315D1B5D100FE78CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E8231815D1B5D100FE78CF /* main.m in Sources */,
+				38E8231C15D1B5D100FE78CF /* SVAppDelegate.m in Sources */,
+				38E8232215D1B5D100FE78CF /* SVViewController.m in Sources */,
+				38E8232A15D1B79200FE78CF /* SVDetailViewController.m in Sources */,
+				38E8232D15D1B7A900FE78CF /* SVMasterViewController.m in Sources */,
+				38E8233015D1B7DB00FE78CF /* SVDetailView.m in Sources */,
+				38E8233315D1B7EE00FE78CF /* SVMasterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38E8231415D1B5D100FE78CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E8231515D1B5D100FE78CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38E8231D15D1B5D100FE78CF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E8231E15D1B5D100FE78CF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E8232315D1B5D100FE78CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		38E8232415D1B5D100FE78CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E8232615D1B5D100FE78CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySplitViewController/mySplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "mySplitViewController/mySplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38E8232715D1B5D100FE78CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mySplitViewController/mySplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "mySplitViewController/mySplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E8230115D1B5D100FE78CF /* Build configuration list for PBXProject "mySplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E8232315D1B5D100FE78CF /* Debug */,
+				38E8232415D1B5D100FE78CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E8232515D1B5D100FE78CF /* Build configuration list for PBXNativeTarget "mySplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E8232615D1B5D100FE78CF /* Debug */,
+				38E8232715D1B5D100FE78CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E822FE15D1B5D100FE78CF /* Project object */;
+}
